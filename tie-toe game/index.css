@@ -1,0 +1,102 @@
+
+h1 {
+    color: green;
+    font-size: 45px;
+}
+p{
+    font-size: medium;
+}
+
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+        width: 130px;
+        height: 129px;
+        margin: auto;
+        border: 1px solid grey;
+        font-size: 30px;
+        text-align: center;  
+}
+
+
+.tie-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#b1{
+    border-top: none;
+    border-left: none;
+}
+#b2{
+    border-top: none;
+   
+}
+#b3{
+    border-top: none;
+    border-right: none;
+}
+#b4{
+
+    border-left: none;
+}
+#b6{
+    
+    border-right: none;
+}
+#b7{
+    border-bottom: none;
+    border-left: none;
+}
+#b8{
+    border-bottom: none;
+    
+}
+#b9{
+    border-bottom: none;
+    border-right: none;
+    
+}
+#btn {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid rgb(146, 164, 182);
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(209, 168, 247);
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+}
+#print{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin-right: 30vw;
+    text-align: center;
+    color: yellow;
+}
+.game-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
