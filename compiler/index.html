@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler </title>
+    <script src="./compiler script.js"></script>
+    <link rel="stylesheet" href="css style.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
+      <link rel="stylesheet" href="bootstrap style.css">  
+</head>
+<body>
+<div class="box">
+	<a class="button" href="#popup1" > The GUI of compiler</a>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+        <button class="copy-btn1" title="copy of code">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="44" fill="none" viewBox="0 0 512 512" class="copy"> Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z" fill="white"/></svg>
+        </button>
+        
+        
+		<h2>
+            <textarea name="source" class="five" id="source-content" cols="30" rows="10"></textarea>
+            <div>
+                <button type="button" id="click" title="click_button">
+                    <svg width="35" height="44" viewBox="0 0 35 44" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                        <path d="M6.65365 0.689226C5.30469 -0.199446 3.60938 -0.228743 2.23307 0.601335C0.856771 1.43141 0 2.99391 0 4.69313V39.0681C0 40.7674 0.856771 42.3298 2.23307 43.1599C3.60938 43.99 5.30469 43.9509 6.65365 43.072L32.9036 25.8845C34.207 25.0349 35 23.5213 35 21.8806C35 20.24 34.207 18.7361 32.9036 17.8767L6.65365 0.689226Z" fill="white"/>
+                    </svg>
+                </button>
+                
+            </div>
+            
+           <textarea name="result" class="six" id="result-content" cols="30" rows="10"></textarea>
+        </h2>
+        <button class="copy-btn2" title="copy of mips">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="44" fill="none" viewBox="0 0 512 512" class="copy"> Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. <path d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z" fill="white"/></svg>
+        </button>
+        
+        
+		<a class="close" href="#">&times;</a>
+		
+	</div>
+</div>
+<script src="gui script.js"></script>
+    
+</body>
+</html>
